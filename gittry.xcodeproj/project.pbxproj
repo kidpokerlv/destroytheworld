@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244807FD1F22944B00850213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244807FC1F22944B00850213 /* AppDelegate.swift */; };
+		244807FF1F22944B00850213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244807FE1F22944B00850213 /* ViewController.swift */; };
+		244808021F22944B00850213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244808001F22944B00850213 /* Main.storyboard */; };
+		244808041F22944B00850213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244808031F22944B00850213 /* Assets.xcassets */; };
+		244808071F22944B00850213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244808051F22944B00850213 /* LaunchScreen.storyboard */; };
+		244808121F22944B00850213 /* gittryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244808111F22944B00850213 /* gittryTests.swift */; };
+		2448081D1F22944B00850213 /* gittryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2448081C1F22944B00850213 /* gittryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2448080E1F22944B00850213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244807F11F22944B00850213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244807F81F22944B00850213;
+			remoteInfo = gittry;
+		};
+		244808191F22944B00850213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244807F11F22944B00850213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244807F81F22944B00850213;
+			remoteInfo = gittry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		244807F91F22944B00850213 /* gittry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244807FC1F22944B00850213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		244807FE1F22944B00850213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		244808011F22944B00850213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		244808031F22944B00850213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		244808061F22944B00850213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		244808081F22944B00850213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2448080D1F22944B00850213 /* gittryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gittryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244808111F22944B00850213 /* gittryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gittryTests.swift; sourceTree = "<group>"; };
+		244808131F22944B00850213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244808181F22944B00850213 /* gittryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gittryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2448081C1F22944B00850213 /* gittryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gittryUITests.swift; sourceTree = "<group>"; };
+		2448081E1F22944B00850213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		244807F61F22944B00850213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2448080A1F22944B00850213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244808151F22944B00850213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244807F01F22944B00850213 = {
+			isa = PBXGroup;
+			children = (
+				244807FB1F22944B00850213 /* gittry */,
+				244808101F22944B00850213 /* gittryTests */,
+				2448081B1F22944B00850213 /* gittryUITests */,
+				244807FA1F22944B00850213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244807FA1F22944B00850213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244807F91F22944B00850213 /* gittry.app */,
+				2448080D1F22944B00850213 /* gittryTests.xctest */,
+				244808181F22944B00850213 /* gittryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244807FB1F22944B00850213 /* gittry */ = {
+			isa = PBXGroup;
+			children = (
+				244807FC1F22944B00850213 /* AppDelegate.swift */,
+				244807FE1F22944B00850213 /* ViewController.swift */,
+				244808001F22944B00850213 /* Main.storyboard */,
+				244808031F22944B00850213 /* Assets.xcassets */,
+				244808051F22944B00850213 /* LaunchScreen.storyboard */,
+				244808081F22944B00850213 /* Info.plist */,
+			);
+			path = gittry;
+			sourceTree = "<group>";
+		};
+		244808101F22944B00850213 /* gittryTests */ = {
+			isa = PBXGroup;
+			children = (
+				244808111F22944B00850213 /* gittryTests.swift */,
+				244808131F22944B00850213 /* Info.plist */,
+			);
+			path = gittryTests;
+			sourceTree = "<group>";
+		};
+		2448081B1F22944B00850213 /* gittryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2448081C1F22944B00850213 /* gittryUITests.swift */,
+				2448081E1F22944B00850213 /* Info.plist */,
+			);
+			path = gittryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244807F81F22944B00850213 /* gittry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244808211F22944B00850213 /* Build configuration list for PBXNativeTarget "gittry" */;
+			buildPhases = (
+				244807F51F22944B00850213 /* Sources */,
+				244807F61F22944B00850213 /* Frameworks */,
+				244807F71F22944B00850213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gittry;
+			productName = gittry;
+			productReference = 244807F91F22944B00850213 /* gittry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2448080C1F22944B00850213 /* gittryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244808241F22944B00850213 /* Build configuration list for PBXNativeTarget "gittryTests" */;
+			buildPhases = (
+				244808091F22944B00850213 /* Sources */,
+				2448080A1F22944B00850213 /* Frameworks */,
+				2448080B1F22944B00850213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2448080F1F22944B00850213 /* PBXTargetDependency */,
+			);
+			name = gittryTests;
+			productName = gittryTests;
+			productReference = 2448080D1F22944B00850213 /* gittryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		244808171F22944B00850213 /* gittryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244808271F22944B00850213 /* Build configuration list for PBXNativeTarget "gittryUITests" */;
+			buildPhases = (
+				244808141F22944B00850213 /* Sources */,
+				244808151F22944B00850213 /* Frameworks */,
+				244808161F22944B00850213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2448081A1F22944B00850213 /* PBXTargetDependency */,
+			);
+			name = gittryUITests;
+			productName = gittryUITests;
+			productReference = 244808181F22944B00850213 /* gittryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244807F11F22944B00850213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rupal Sadh";
+				TargetAttributes = {
+					244807F81F22944B00850213 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2448080C1F22944B00850213 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 244807F81F22944B00850213;
+					};
+					244808171F22944B00850213 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 244807F81F22944B00850213;
+					};
+				};
+			};
+			buildConfigurationList = 244807F41F22944B00850213 /* Build configuration list for PBXProject "gittry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 244807F01F22944B00850213;
+			productRefGroup = 244807FA1F22944B00850213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				244807F81F22944B00850213 /* gittry */,
+				2448080C1F22944B00850213 /* gittryTests */,
+				244808171F22944B00850213 /* gittryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244807F71F22944B00850213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244808071F22944B00850213 /* LaunchScreen.storyboard in Resources */,
+				244808041F22944B00850213 /* Assets.xcassets in Resources */,
+				244808021F22944B00850213 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2448080B1F22944B00850213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244808161F22944B00850213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244807F51F22944B00850213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244807FF1F22944B00850213 /* ViewController.swift in Sources */,
+				244807FD1F22944B00850213 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244808091F22944B00850213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244808121F22944B00850213 /* gittryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244808141F22944B00850213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2448081D1F22944B00850213 /* gittryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2448080F1F22944B00850213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244807F81F22944B00850213 /* gittry */;
+			targetProxy = 2448080E1F22944B00850213 /* PBXContainerItemProxy */;
+		};
+		2448081A1F22944B00850213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244807F81F22944B00850213 /* gittry */;
+			targetProxy = 244808191F22944B00850213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		244808001F22944B00850213 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244808011F22944B00850213 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		244808051F22944B00850213 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244808061F22944B00850213 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2448081F1F22944B00850213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		244808201F22944B00850213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		244808221F22944B00850213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gittry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = calc.gittry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		244808231F22944B00850213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gittry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = calc.gittry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		244808251F22944B00850213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gittryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = calc.gittryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gittry.app/gittry";
+			};
+			name = Debug;
+		};
+		244808261F22944B00850213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gittryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = calc.gittryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gittry.app/gittry";
+			};
+			name = Release;
+		};
+		244808281F22944B00850213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = gittryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = calc.gittryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = gittry;
+			};
+			name = Debug;
+		};
+		244808291F22944B00850213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = gittryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = calc.gittryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = gittry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244807F41F22944B00850213 /* Build configuration list for PBXProject "gittry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2448081F1F22944B00850213 /* Debug */,
+				244808201F22944B00850213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244808211F22944B00850213 /* Build configuration list for PBXNativeTarget "gittry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244808221F22944B00850213 /* Debug */,
+				244808231F22944B00850213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		244808241F22944B00850213 /* Build configuration list for PBXNativeTarget "gittryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244808251F22944B00850213 /* Debug */,
+				244808261F22944B00850213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		244808271F22944B00850213 /* Build configuration list for PBXNativeTarget "gittryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244808281F22944B00850213 /* Debug */,
+				244808291F22944B00850213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244807F11F22944B00850213 /* Project object */;
+}
